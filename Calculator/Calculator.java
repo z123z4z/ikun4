@@ -15,5 +15,6 @@ public class Calculator {
         System.out.print("Add Sub Mul Div Resultes:\n");
         Calculate cal=new Calculate();
         cal.doCalculate(new Add(),op1,op2);
+	cal.doCalculate(new Sub(),op1,op2);
     }
 }
